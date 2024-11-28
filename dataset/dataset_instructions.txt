@@ -1,0 +1,6 @@
+In this folder, put the metadata and the ratings json files for every domain you plan to use. You do not need to change anything in the json files or do any pre-processing before butting the file in this directory. The code will take care of everything, so all you need to do is put the data for the domains you plan on using. For example, if you want to use Books as the source domain and Movies as the target domain, place the following files in this dataset:
+
+1. meta_Books.json
+2. reviews_Books_5.json
+3. meta_Movies_and_TV.json
+4. reviews_Movies_and_TV_5.json
