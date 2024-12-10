@@ -26,9 +26,18 @@ You will see three main folders and files in this project repository:
     - `run.py`: The most important file that connects all the source files together. You will only need to run this file to get results.
   
 3. `requirements.txt`: Contains all the libraries and packages used to run this project. :
-    - Create a python virual enviroment with this command: `python3 -m venv llm_environment`.
-    - Once you create the virual enviroment, activate it with this command: `source llm_environment/bin/activate`.
-    - Finally, run this command to download all the neccessary libraries required: `pip install -r requirements.txt`.
+    - Create a python virual enviroment with the following command:
+   ```bash
+    python3 -m venv llm_environment 
+    ```
+    - Once you create the virual enviroment, activate it with the following command:
+   ```bash
+    source llm_environment/bin/activate 
+    ```
+    - Finally, run the following command to download all the neccessary libraries required:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Instructions on Running the Code
 
