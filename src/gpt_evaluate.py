@@ -6,6 +6,7 @@ import torch
 from math import sqrt
 from openai import OpenAI
 from rating_prediction_prompts import transform_data
+from fine_tune import load_train_val_data
 from peft import PeftModel, LoraConfig, get_peft_model, AutoPeftModelForCausalLM, PeftConfig
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, LlamaForCausalLM
 
