@@ -5,7 +5,6 @@ import torch
 from math import sqrt
 from rating_prediction_prompts import transform_data
 from peft import PeftModel, LoraConfig, get_peft_model, AutoPeftModelForCausalLM, PeftConfig
-from fine_tune import load_model_and_tokenizer, load_train_val_data
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, LlamaForCausalLM
 
 def evaluate_llm(k_shot, source, target, data_info, model_name, rating_ranking, injection, prompt_context):
